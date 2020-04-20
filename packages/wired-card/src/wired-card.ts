@@ -43,7 +43,7 @@ export class WiredCard extends WiredBase {
   render(): TemplateResult {
     return html`
     <div id="overlay"><svg></svg></div>
-    <div style="position: relative;">
+    <div>
       <slot @slotchange="${this.wiredRender}"></slot>
     </div>
     `;

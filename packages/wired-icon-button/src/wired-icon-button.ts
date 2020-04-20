@@ -29,7 +29,7 @@ export class WiredIconButton extends WiredBase {
           letter-spacing: 1.25px;
           text-transform: uppercase;
           text-align: center;
-          padding: 10px;
+          padding: var(--wired-icon-padding, 10px);
           color: inherit;
           outline: none;
           border-radius: 50%;

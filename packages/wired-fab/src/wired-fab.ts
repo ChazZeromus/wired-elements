@@ -27,7 +27,7 @@ export class WiredFab extends WiredBase {
           letter-spacing: 1.25px;
           text-transform: uppercase;
           text-align: center;
-          padding: 16px;
+          padding: var(--wired-fab-padding, 16px);
           color: inherit;
           outline: none;
           border-radius: 50%;
